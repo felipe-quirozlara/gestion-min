@@ -1,24 +1,50 @@
 import logo from './logo.svg';
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import NavbarPage from './components/NavbarPage';
+import Login from './pages/Login';
+import Landing from './pages/Landing';
+import Signin from './pages/Signin';
+import RecuperClave from './pages/RecuperClave';
+import PrivatePages from './components/PrivatePages';
+import DashboardOperario from './pages/DashboardOperario';
+import DashboardAdmin from './pages/admin/DashboardAdmin';
+
+import CursosOperario from './pages/CursosOperario';
+import CursoPage from './pages/CursoPage';
+import CambiarInfo from './pages/CambiarInfo';
+import AdminPages from './components/AdminPages';
+import Cursos from './pages/admin/Cursos';
+import UsuariosPage from './pages/admin/UsuariosPage';
+import ReportesPage from './pages/admin/ReportesPage';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path='/' element={<NavbarPage />}>
+        <Route path='' element={<Landing />} />
+        <Route path='login' element={<Login />} />
+        <Route path='singin' element={<Signin />} />
+        <Route path='recuper-clave' element={<RecuperClave />} />
+      </Route>
+      <Route path='/users' element={<PrivatePages />}>
+        <Route path='' element={<DashboardOperario />} />
+        <Route path='cursos' element={<CursosOperario />} />
+        <Route path='cambiar-info' element={<CambiarInfo />} />
+
+        <Route path='curso' element={<CursoPage />} />
+
+      </Route>
+      <Route path='/admin' element={<AdminPages />}>
+        <Route path='' element={<DashboardAdmin />} />
+        <Route path='cursos' element={<Cursos />} />
+        <Route path='usuarios' element={<UsuariosPage />}  />
+        <Route path='reportes' element={<ReportesPage />}/>
+        
+      </Route>
+      <Route path='*' element={<NotFound />} />
+    </Routes>
   );
 }
 
