@@ -27,7 +27,7 @@ const NavbarAdmin = () => {
 
         </li>
         <li class="nav-item">
-          <Link to={"/admin/reporte"} className="no-underline">
+          <Link to={"/admin/reportes"} className="no-underline">
             <a class="nav-link text-white" href="#">Reportes</a>
           </Link>
 
