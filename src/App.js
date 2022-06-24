@@ -18,6 +18,10 @@ import Cursos from './pages/admin/Cursos';
 import UsuariosPage from './pages/admin/UsuariosPage';
 import ReportesPage from './pages/admin/ReportesPage';
 import NotFound from './pages/NotFound';
+import CrearCurso from './pages/admin/CrearCurso';
+import EditarCurso from './pages/admin/EditarCurso';
+import ProfePages from './components/ProfePages';
+import DashboardProfe from './pages/profesores/DashboardProfe';
 
 function App() {
   return (
@@ -39,9 +43,15 @@ function App() {
       <Route path='/admin' element={<AdminPages />}>
         <Route path='' element={<DashboardAdmin />} />
         <Route path='cursos' element={<Cursos />} />
+        <Route path='curso' element={<CursoPage />} />
         <Route path='usuarios' element={<UsuariosPage />}  />
         <Route path='reportes' element={<ReportesPage />}/>
-        
+        <Route path='crear-curso' element={<CrearCurso />} />
+        <Route path='editar-curso' element={<EditarCurso />} />
+
+      </Route>
+      <Route path='/profe' element={<ProfePages />}>
+        <Route path='' element={<DashboardProfe />} />
       </Route>
       <Route path='*' element={<NotFound />} />
     </Routes>

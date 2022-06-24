@@ -1,9 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Cursos = () => {
   return (
     <div className='container mt-3'>
       <h1>Cursos y certificados</h1>
+      <div className='container'>
+        <Link to={"/admin/crear-curso"} >
+          <button className='btn btn-primary'>Crear curso</button>
+        </Link>
+      </div>
       <div className='container my-4'>
         <div className='card mb-3'>
           <div className="card-header text-center">
@@ -14,7 +20,12 @@ const Cursos = () => {
               <li><b>Profesor: </b>Juan Carlos Rodríguez Silva</li>
             </ul>
             <div className='d-flex flex-row-reverse'>
-              <a href="#" class="btn btn-primary me-4">Ver curso</a>
+              <Link to={"/admin/curso"}>
+                <a href="#" class="btn btn-primary me-4">Ver curso</a>
+              </Link>
+              <Link to={"/admin/editar-curso"}>
+                <button className='btn btn-secondary mx-2'>Editar curso</button>
+              </Link>
             </div>
           </div>
           <div class="card-footer text-muted text-center">
@@ -30,7 +41,12 @@ const Cursos = () => {
               <li><b>Profesor: </b>Cruz Romero Ríos</li>
             </ul>
             <div className='d-flex flex-row-reverse'>
-              <a href="#" class="btn btn-primary me-4">Ver curso</a>
+              <Link to={"/admin/curso"}>
+                <a href="#" class="btn btn-primary me-4">Ver curso</a>
+              </Link>
+              <Link to={"/admin/editar-curso"}>
+                <button className='btn btn-secondary mx-2'>Editar curso</button>
+              </Link>
             </div>
           </div>
           <div class="card-footer text-muted text-center">
@@ -39,14 +55,19 @@ const Cursos = () => {
         </div>
         <div className='card mb-3'>
           <div className="card-header text-center">
-          Bulldozer - Grupo Minero Las Cenizas
+            Bulldozer - Grupo Minero Las Cenizas
           </div>
           <div className='card-body'>
             <ul>
               <li><b>Profesor: </b>Mónica de Prats</li>
             </ul>
             <div className='d-flex flex-row-reverse'>
-              <a href="#" class="btn btn-primary me-4">Ver curso</a>
+              <Link to={"/admin/curso"}>
+                <a href="#" class="btn btn-primary me-4">Ver curso</a>
+              </Link>
+              <Link to={"/admin/editar-curso"}>
+                <button className='btn btn-secondary mx-2'>Editar curso</button>
+              </Link>
             </div>
           </div>
           <div class="card-footer text-muted text-center">
