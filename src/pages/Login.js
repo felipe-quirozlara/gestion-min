@@ -12,7 +12,7 @@ const Login = () => {
       navigate("/admin")
       break;
       case email.includes("profesor"):
-        console.log("profesor");
+        navigate("/profe")
         break;
       default:
         navigate("/users");

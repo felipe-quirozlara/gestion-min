@@ -5,7 +5,7 @@ const CambiarInfo = () => {
         <div className="container-fluid">
             <div id="white-container" className="container mt-5 bg-light pt-5 rounded shadow ">
                 <div className="row d-flex justify-content-center mt-5 pb-5">
-                    <div className="col-10 col-md-8 col-lg-6 ">
+                    <div className="col-10 ">
                         <h1>Cambiar información personal</h1>
                         <div>
                             <form onsubmit="validateForm(event)">

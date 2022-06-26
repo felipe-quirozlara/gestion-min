@@ -6,6 +6,7 @@ const EditarCurso = () => {
             <div id="white-container" class="container nopwidth mt-5 bg-light py-5 rounded shadow ">
                 <h1 class="ms-3 mb-3">Modificar curso o certificado</h1>
                 <div class="px-3">
+                    
                     <form onsubmit="validateForm(event)">
                         <div class="container mx-3 mb-3">
                             <h2 class="mb-3">Agregar un participante</h2>
@@ -51,6 +52,7 @@ const EditarCurso = () => {
                             </table>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>

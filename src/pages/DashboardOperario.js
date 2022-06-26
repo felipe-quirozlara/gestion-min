@@ -20,7 +20,7 @@ const DashboardOperario = () => {
                     </div>
                     <hr />
                     <div className="row">
-                        <div className="col-5 p-3 border mx-auto">
+                        <div className="col-12 col-md-6 p-3 border mx-auto">
                             <h3>Últimos mensajes</h3>
                             <hr />
                             <div className="container">
@@ -47,7 +47,7 @@ const DashboardOperario = () => {
                                 </table>
                             </div>
                         </div>
-                        <div className="col-6 border mx-auto">
+                        <div className="col-12 col-md-6 border mx-auto">
                             <h3 className="mt-2">Mis cursos</h3>
                             <div className="col mb-3">
                                 <div className="card mb-3">

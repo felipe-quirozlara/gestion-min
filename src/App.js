@@ -22,6 +22,10 @@ import CrearCurso from './pages/admin/CrearCurso';
 import EditarCurso from './pages/admin/EditarCurso';
 import ProfePages from './components/ProfePages';
 import DashboardProfe from './pages/profesores/DashboardProfe';
+import CreateAdmin from './pages/admin/CreateAdmin';
+import CrearProfe from './pages/admin/CrearProfe';
+import CrearUser from './pages/admin/CrearUser';
+import CursosProfe from './pages/profesores/CursosProfe';
 
 function App() {
   return (
@@ -46,12 +50,20 @@ function App() {
         <Route path='curso' element={<CursoPage />} />
         <Route path='usuarios' element={<UsuariosPage />}  />
         <Route path='reportes' element={<ReportesPage />}/>
+
         <Route path='crear-curso' element={<CrearCurso />} />
         <Route path='editar-curso' element={<EditarCurso />} />
+        <Route path='crear-admin' element={<CreateAdmin />} />
+        <Route path='crear-profe' element={<CrearProfe />} />
+        <Route path='crear-operario' element={<CrearUser />} />
 
       </Route>
       <Route path='/profe' element={<ProfePages />}>
-        <Route path='' element={<DashboardProfe />} />
+        <Route path='' element={<DashboardAdmin />} />
+        <Route path='cursos' element={<CursosProfe />} />
+        <Route path='editar-curso' element={<EditarCurso />} />
+        <Route path='curso' element={<CursoPage />} />
+
       </Route>
       <Route path='*' element={<NotFound />} />
     </Routes>
