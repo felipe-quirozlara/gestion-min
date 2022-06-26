@@ -13,8 +13,8 @@ const Landing = () => {
 
             <div className='container-fluid padding-0 mb-5'>
                 <img className='landing-img' src='https://images.unsplash.com/photo-1575642975010-983c53b3eeb9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format' />
-                <div class="container">
-                    <div class="carousel-caption text-start text-white rounded p-2 mb-4" style={{backgroundColor: "#0000003d"}}>
+                <div class="container image-fluid-landing ">
+                    <div class="text-start text-white rounded p-2 mb-4" style={{backgroundColor: "#0000003d"}}>
                         <h1 className='display-3'>Min<b>Training</b></h1>
                         <p>Proovedora de certificaciones, acreditaciones y cursos de formación a la gran minería desde 1987</p>
                     </div>
