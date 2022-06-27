@@ -17,16 +17,13 @@ const CursosOperario = () => {
                                 <div class="col-md-8">
                                     <div class="card-body">
                                         <h5 class="card-title">Grúa horquilla</h5>
-                                        <p class="card-text">
-                                            Continua tu curso de operario de grúa horquilla
-                                        </p>
+                                        
                                         <div class="d-flex justify-content-end">
-                                            <Link to={"/users/curso"}>
-                                                <button class="btn btn-primary my-3">Ver curso</button>
+                                            <Link to={"/users/evaluacion"}>
+                                                <button class="btn btn-info my-3">Realizar evaluación</button>
                                             </Link>
                                         </div>
-                                        <p class="card-text"><small class="text-muted">Última vez ingresado hace 2
-                                            días</small></p>
+                                        
                                     </div>
                                 </div>
                             </div>

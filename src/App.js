@@ -26,6 +26,7 @@ import CreateAdmin from './pages/admin/CreateAdmin';
 import CrearProfe from './pages/admin/CrearProfe';
 import CrearUser from './pages/admin/CrearUser';
 import CursosProfe from './pages/profesores/CursosProfe';
+import Evaluacion from './pages/Evaluacion';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         <Route path='' element={<DashboardOperario />} />
         <Route path='cursos' element={<CursosOperario />} />
         <Route path='cambiar-info' element={<CambiarInfo />} />
+        <Route path='evaluacion' element={<Evaluacion />} />
 
         <Route path='curso' element={<CursoPage />} />
 
