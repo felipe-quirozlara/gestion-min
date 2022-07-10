@@ -1,0 +1,29 @@
+{
+    "alumnos": [
+        {
+            "id": 1,
+            "nombre": "Juan",
+            "apellido": "Briones Calderon"
+        },
+        {
+            "id": 2,
+            "nombre": "Carla",
+            "apellido": "Jaramillo Estudillo"
+        },
+        {
+            "id": 3,
+            "nombre": "Roberto",
+            "apellido": "Gallardo Molina"
+        },
+        {
+            "id": 4,
+            "nombre": "Santiago",
+            "apellido": "Rojas Martínez"
+        },
+        {
+            "id": 5,
+            "nombre": "Sofía",
+            "apellido": "López Morales"
+        }
+    ]
+}

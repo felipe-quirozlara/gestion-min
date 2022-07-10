@@ -27,6 +27,11 @@ import CrearProfe from './pages/admin/CrearProfe';
 import CrearUser from './pages/admin/CrearUser';
 import CursosProfe from './pages/profesores/CursosProfe';
 import Evaluacion from './pages/Evaluacion';
+import Asistencia from './pages/profesores/Asistencia';
+import HistoryAsistencia from './pages/profesores/HistoryAsistencia';
+import CursoProfe from './pages/profesores/CursoProfe';
+import HistoryDay from './pages/profesores/HistoryDay';
+import Aprobar from './pages/admin/Aprobar';
 
 function App() {
   return (
@@ -58,13 +63,18 @@ function App() {
         <Route path='crear-admin' element={<CreateAdmin />} />
         <Route path='crear-profe' element={<CrearProfe />} />
         <Route path='crear-operario' element={<CrearUser />} />
+        <Route path='aprobar' element={<Aprobar />} />
 
       </Route>
       <Route path='/profe' element={<ProfePages />}>
         <Route path='' element={<DashboardAdmin />} />
         <Route path='cursos' element={<CursosProfe />} />
         <Route path='editar-curso' element={<EditarCurso />} />
-        <Route path='curso' element={<CursoPage />} />
+        <Route path='curso' element={<CursoProfe />} />
+        <Route path='asistencia' element={<Asistencia />} />
+        <Route path='historial-dia/:id' element={<HistoryDay />} />
+        <Route path='historial-asistencia' element={<HistoryAsistencia />} />
+
 
       </Route>
       <Route path='*' element={<NotFound />} />

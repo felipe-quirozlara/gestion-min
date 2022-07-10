@@ -21,12 +21,10 @@ const Cursos = () => {
                 <li><b>Profesor: </b>Juan Carlos Rodríguez Silva</li>
               </ul>
               <div className='d-flex flex-row-reverse'>
-                <Link to={"/admin/curso"}>
-                  <a href="#" class="btn btn-primary me-4">Ver curso</a>
+                <Link to={"/admin/aprobar"}>
+                  <a href="#" class="btn btn-info me-4">Aprobar alumnos</a>
                 </Link>
-                <Link to={"/admin/editar-curso"}>
-                  <button className='btn btn-secondary mx-2'>Editar curso</button>
-                </Link>
+                
               </div>
             </div>
             <div class="card-footer text-muted text-center">

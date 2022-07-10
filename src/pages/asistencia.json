@@ -1,0 +1,148 @@
+{
+    "clases": [
+        {
+            "clase": 1,
+            "fecha": "12/04/22",
+            "asistencia": [
+                {
+                    "id": 1,
+                    "nombre": "Juan",
+                    "apellido": "Briones Calderon",
+                    "estado": 1
+                },
+                {
+                    "id": 2,
+                    "nombre": "Carla",
+                    "apellido": "Jaramillo Estudillo",
+                    "estado": 1
+                },
+                {
+                    "id": 3,
+                    "nombre": "Roberto",
+                    "apellido": "Gallardo Molina",
+                    "estado": 0
+                },
+                {
+                    "id": 4,
+                    "nombre": "Santiago",
+                    "apellido": "Rojas Martínez",
+                    "estado": 1
+                },
+                {
+                    "id": 5,
+                    "nombre": "Sofía",
+                    "apellido": "López Morales",
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "clase": 2,
+            "fecha": "19/04/22",
+            "asistencia": [
+                {
+                    "id": 1,
+                    "nombre": "Juan",
+                    "apellido": "Briones Calderon",
+                    "estado": 1
+                },
+                {
+                    "id": 2,
+                    "nombre": "Carla",
+                    "apellido": "Jaramillo Estudillo",
+                    "estado": 1
+                },
+                {
+                    "id": 3,
+                    "nombre": "Roberto",
+                    "apellido": "Gallardo Molina",
+                    "estado": 0
+                },
+                {
+                    "id": 4,
+                    "nombre": "Santiago",
+                    "apellido": "Rojas Martínez",
+                    "estado": 1
+                },
+                {
+                    "id": 5,
+                    "nombre": "Sofía",
+                    "apellido": "López Morales",
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "clase": 3,
+            "fecha": "26/04/22",
+            "asistencia": [
+                {
+                    "id": 1,
+                    "nombre": "Juan",
+                    "apellido": "Briones Calderon",
+                    "estado": 1
+                },
+                {
+                    "id": 2,
+                    "nombre": "Carla",
+                    "apellido": "Jaramillo Estudillo",
+                    "estado": 1
+                },
+                {
+                    "id": 3,
+                    "nombre": "Roberto",
+                    "apellido": "Gallardo Molina",
+                    "estado": 1
+                },
+                {
+                    "id": 4,
+                    "nombre": "Santiago",
+                    "apellido": "Rojas Martínez",
+                    "estado": 0
+                },
+                {
+                    "id": 5,
+                    "nombre": "Sofía",
+                    "apellido": "López Morales",
+                    "estado": 1
+                }
+            ]
+        },
+        {
+            "clase": 4,
+            "fecha": "03/05/22",
+            "asistencia": [
+                {
+                    "id": 1,
+                    "nombre": "Juan",
+                    "apellido": "Briones Calderon",
+                    "estado": 1
+                },
+                {
+                    "id": 2,
+                    "nombre": "Carla",
+                    "apellido": "Jaramillo Estudillo",
+                    "estado": 1
+                },
+                {
+                    "id": 3,
+                    "nombre": "Roberto",
+                    "apellido": "Gallardo Molina",
+                    "estado": 1
+                },
+                {
+                    "id": 4,
+                    "nombre": "Santiago",
+                    "apellido": "Rojas Martínez",
+                    "estado": 1
+                },
+                {
+                    "id": 5,
+                    "nombre": "Sofía",
+                    "apellido": "López Morales",
+                    "estado": 1
+                }
+            ]
+        }
+    ]
+}

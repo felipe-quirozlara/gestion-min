@@ -1,6 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const CursoPage = () => {
+
+
   return (
     <div className="container-fluid">
       <div id="white-container" className="container nopwidth mt-5 bg-light py-5 rounded shadow ">
@@ -23,6 +26,7 @@ const CursoPage = () => {
               <button className="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
                 data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
                 aria-selected="false">Evaluaciones</button>
+              
             </div>
             <div className="tab-content" id="v-pills-tabContent" style={{ width: "100vw" }}>
               <div className="tab-pane fade show active" id="v-pills-home" role="tabpanel"
@@ -337,8 +341,8 @@ const CursoPage = () => {
                           </div>
                         </div>
                         <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                          <button type="button" class="btn btn-primary">Guardar</button>
                         </div>
                       </div>
                     </div>
@@ -346,6 +350,7 @@ const CursoPage = () => {
                 </div>
 
               </div>
+              
             </div>
           </div>
         </div>
